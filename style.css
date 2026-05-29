@@ -1,0 +1,121 @@
+/* ===== RESET / BASE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* ===== HEADINGS ===== */
+h1 {
+  font-size: 36px;
+  color: #111111;
+}
+
+h2 {
+  font-size: 28px;
+  color: #222222;
+}
+
+h3 {
+  font-size: 22px;
+  color: #333333;
+}
+
+/* ===== PARAGRAPH ===== */
+p {
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 10px;
+}
+
+/* ===== LINKS ===== */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* ===== IMAGES ===== */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===== BUTTON ===== */
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ===== INPUT ===== */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ===== FLEXBOX ===== */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ===== GRID ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* ===== UTILITY CLASSES ===== */
+.text-center { text-align: center; }
+.text-left   { text-align: left; }
+.text-right  { text-align: right; }
+
+.mt-10 { margin-top: 10px; }
+.mb-10 { margin-bottom: 10px; }
+.p-10  { padding: 10px; }
+
+.hidden  { display: none; }
+.bold    { font-weight: bold; }
+.italic  { font-style: italic; }
